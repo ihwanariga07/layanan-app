@@ -65,11 +65,7 @@
                             <!-- <li><a class="lan-4" href="{{ url('admin') }}">Admin</a></li>
                             <li><a class="lan-5" href="{{ url('dashboard/layanan') }}">Layanan</a></li> -->
                             <li><a href="{{ route('admin.dashboard') }}">Beranda</a></li>
-                            <li><a href="{{ route('layanan.index') }}">Users</a></li>
-                            <li><a href="{{ route('customer.index') }}">layanan</a></li>
-                            <li><a href="{{ route('booking.index') }}">antrian</a></li>
-                            <li><a href="{{ route('booking_detail.index') }}">loket</a></li>
-                            <li><a href="{{ route('booking.index') }}">riwayat_panggilan</a></li>
+
                             <!-- Tambahkan menu dashboard lainnya di sini -->
                         </ul>
                     </li>
