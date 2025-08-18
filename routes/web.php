@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\Admin\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,7 +26,15 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //data users->untuk akun admin/petugas
-Route::get('users', [UserController::class, 'index']);
+
+/* ---------- Area setelah login ---------- */
+Route::middleware('auth')->group(function () {
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+});
+
+Route::prefix('admin')->group(function () {
+    Route::resource('users', UserController::class);
+});
