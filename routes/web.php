@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +19,14 @@ use Illuminate\Support\Facades\Auth;
 // })->middleware('auth');
 Route::redirect('/', '/login');
 
+Route::get('/', function () {
+    return view('home');
+})->middleware('auth');
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+//data users->untuk akun admin/petugas
+Route::resource('users', UserController::class)->middleware('auth');

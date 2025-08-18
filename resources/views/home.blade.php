@@ -60,7 +60,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://dpmptsp.acehprov.go.id/assets/img/gedung.jpg" 
+                    <img src="https://dpmptsp.acehprov.go.id/thumbnail/1200x630/media/2021.07/dpmptsp_office.png" 
                          class="img-fluid rounded shadow" alt="Gedung DPMPTSP Aceh">
                 </div>
                 <div class="col-md-6">
