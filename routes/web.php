@@ -29,4 +29,4 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //data users->untuk akun admin/petugas
-Route::resource('users', UserController::class)->middleware('auth');
+Route::get('users', [UserController::class, 'index']);

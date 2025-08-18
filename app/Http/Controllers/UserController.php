@@ -12,7 +12,7 @@ class UserController extends Controller
     public function index()
     {
             $users = User::paginate(10);
-            return view('admin.users.index', compact('users'));
+            return view('admin.users.index', compact('user'));
     }
 
     /**
@@ -52,7 +52,13 @@ class UserController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+    //     $user->name = $request->name;
+    // $user->email = $request->email;
+    // $user->role = $request->role;
+    // if ($request->filled('password')) {
+    //     $user->password = Hash::make($request->password);
+    // }
+    // $user->save();
     }
 
     /**
