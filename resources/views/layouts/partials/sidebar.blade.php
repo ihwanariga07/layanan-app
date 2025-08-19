@@ -8,8 +8,8 @@
     <div>
         <div class="logo-wrapper">
             <a href="{{ url('/') }}">
-                <img class="img-fluid for-light" src="{{ asset('assets/layanan/dpmptspaceh.png') }}" alt="">
-                <img class="img-fluid for-dark" src="{{ asset('assets/layanan/dpmptspaceh.png') }}" alt="">
+                <img class="img-fluid for-light" src="{{ asset('assets/layanan/dpmptspaceh.png') }}" alt="dpmptspaceh"; width="200"; hight="200">
+                <img class="img-fluid for-dark" src="{{ asset('assets/layanan/dpmptspaceh.png') }}" alt="dpmptspaceh"; width="200"; hight="200">
             </a>
             <div class="back-btn"><i class="fa-solid fa-angle-left"></i></div>
             <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"></i></div>
