@@ -8,8 +8,8 @@
     <div>
         <div class="logo-wrapper">
             <a href="{{ url('/') }}">
-                <img class="img-fluid for-light" src="{{ asset('assets/images/logo/logosister.png') }}" alt="">
-                <img class="img-fluid for-dark" src="{{ asset('assets/images/logo/logosister.png') }}" alt="">
+                <img class="img-fluid for-light" src="{{ asset('assets/layanan/dpmptspaceh.png') }}" alt="">
+                <img class="img-fluid for-dark" src="{{ asset('assets/layanan/dpmptspaceh.png') }}" alt="">
             </a>
             <div class="back-btn"><i class="fa-solid fa-angle-left"></i></div>
             <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"></i></div>
@@ -17,7 +17,7 @@
         
         <div class="logo-icon-wrapper">
             <a href="{{ url('/') }}">
-                <img class="img-fluid" src="{{ asset('assets/images/logo/logosister.png') }}" alt="">
+                <img class="img-fluid" src="{{ asset('assets/layanan/dpmptspaceh.png') }}" alt="">
             </a>
         </div>
         
@@ -28,7 +28,7 @@
                 <ul class="sidebar-links" id="simple-bar">
                     <li class="back-btn">
                         <a href="{{ url('/') }}">
-                            <img class="img-fluid" src="{{ asset('assets/images/logo/logosister.png') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('assets/layanan/dpmptspaceh.png') }}" alt="">
                         </a>
                         <div class="mobile-back text-end">
                             <span>Back</span>
@@ -288,7 +288,7 @@
             </a>
             <ul class="sidebar-submenu">
                 <li>
-                    <a href="https://www.google.com/maps?q=Pango+Raya,+Banda+Aceh" target="_blank">
+                    <a href="https://maps.app.goo.gl/iDyjN9k4us1p8DYy6" target="_blank">
                         Map
                     </a>
                 </li>

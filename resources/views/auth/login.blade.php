@@ -9,7 +9,7 @@
 
           <div class="text-center mb-4">
             <a class="logo" href="{{ url('/') }}">
-              <img class="img-fluid for-dark"  src="{{ asset('assets/images/logo/logosister.png') }}">
+              <img class="img-fluid for-dark"  src="{{ asset('assets/layanan/dpmptspaceh.png') }}">
             </a>
           </div>
 

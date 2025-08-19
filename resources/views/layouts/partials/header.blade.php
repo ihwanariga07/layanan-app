@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Default Dashboard</title>
+    <title>Pelayanan</title>
   </head>
   <body onload="startTime()"> 
     <!-- loader starts-->
@@ -35,11 +35,22 @@
             </div>
         </form>
         <div class="header-logo-wrapper col-auto p-0">
-            <div class="logo-wrapper"><a href="{{ url('index.html') }}"><img class="img-fluid for-light" src="{{ asset('assets/images/logo/logo.png') }}" alt=""><img class="img-fluid for-dark" src="{{ asset('assets/images/logo/logo_dark.png') }}" alt=""></a></div>
+            <div class="logo-wrapper"><a href="{{ url('index.html') }}"><img class="img-fluid for-light" src="{{ asset('assets/layanan/logodpmptsp.jpg') }}" alt=""><img class="img-fluid for-dark" src="{{ asset('assets/images/logo/logo_dark.png') }}" alt=""></a></div>
             <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i></div>
         </div>
 
+          <div class="left-header col-xxl-5 col-xl-6 col-lg-5 col-md-4 col-sm-3 p-0">
+            <div class="notification-slider">
+                <div class="d-flex h-100"><img src="{{ asset('assets/images/giftools.gif') }}" alt="gif">
+                    <h6 class="mb-0 f-w-400"><span class="font-primary">Jangan sampai ketinggalan </span><span class="f-light"> promo lulur whitening</span></h6><i class="icon-arrow-top-right f-light"></i>
+                </div>
+                <div class="d-flex h-100"><img src="{{ asset('assets/images/giftools.gif') }}" alt="gif">
+                    <h6 class="mb-0 f-w-400"><span class="f-light">harga special hanya 85k! </span></h6>
 
+
+                </div>
+            </div>
+        </div>
         
         <div class="nav-right col-xxl-7 col-xl-6 col-md-7 col-8 pull-right right-header p-0 ms-auto">
             <ul class="nav-menus">
@@ -212,8 +223,8 @@
                     </div>
                 </li>
                 <li class="profile-nav onhover-dropdown pe-0 py-0">
-                    <div class="d-flex profile-media"><img class="b-r-10" src="{{ asset('assets/images/dashboard/logoglow.png') }}" alt="">
-                        <div class="flex-grow-1"><span>Sisterglow</span>
+                    <div class="d-flex profile-media"><img class="b-r-10" src="{{ asset('assets/layanan/logodpmptsp.jpg') }}" alt="Logo DPMPTSP" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+                        <div class="flex-grow-1"><span>DPMPTSP</span>
                             <p class="mb-0">Admin <i class="middle fa-solid fa-angle-down"></i></p>
                         </div>
                     </div>
