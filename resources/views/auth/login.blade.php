@@ -51,7 +51,7 @@
                 </div>
               </div>
 
-              <h6 class="text-muted mt-4 or">Atau masuk dengan</h6>
+              <h6 class="text-muted mt-4">Atau masuk dengan</h6>
               <div class="social mt-4">
                 <div class="btn-showcase">
                   <a class="btn btn-light" href="#"><i class="fa-brands fa-linkedin-in"></i></a>

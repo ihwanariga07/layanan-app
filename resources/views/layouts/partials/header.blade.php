@@ -60,7 +60,7 @@
                             <div class="lang"><i class="flag-icon flag-icon-id"></i><span class="lang-txt">ID</span></div>
                         </div>
                         <div class="more_lang">
-                            <div class="lang selected" data-value="in"><i class="flag-icon flag-icon-id"></i><span class="lang-txt">Indonesia<span> (IN)</span></span></div>
+                            <div class="lang selected" data-value="id"><i class="flag-icon flag-icon-id"></i><span class="lang-txt">Indonesia<span> (IN)</span></span></div>
                             <div class="lang" data-value="en"><i class="flag-icon flag-icon-us"></i><span class="lang-txt">English<span> (US)</span></span></div>
                             <div class="lang" data-value="de"><i class="flag-icon flag-icon-de"></i><span class="lang-txt">Deutsch</span></div>
                             <div class="lang" data-value="es"><i class="flag-icon flag-icon-es"></i><span class="lang-txt">Español</span></div>

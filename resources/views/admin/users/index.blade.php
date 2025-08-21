@@ -1,9 +1,9 @@
-@extends('layouts.app') {{-- pakai layout utama --}}
+@extends('layouts.app')
 
 @section('title', 'Manajemen Users')
 
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid mt-4">
     <div class="row mb-3">
         <div class="col">
             <h4 class="text-white">Manajemen Users</h4>

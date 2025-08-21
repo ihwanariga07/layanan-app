@@ -13,8 +13,8 @@
                 Mewujudkan pelayanan perizinan yang <strong>cepat</strong>, 
                 <strong>transparan</strong>, dan <strong>akuntabel</strong>.
             </p>
-            <a href="{{ route('login') }}" class="btn btn-warning btn-lg rounded-pill">
-                Masuk ke Sistem
+            <!-- <a href="{{ route('login') }}" class="btn btn-warning btn-lg rounded-pill"> -->
+               <a href=https://dpmptsp.acehprov.go.id><div><h5>Masuk ke Sistem Resmi</h5></div></a>
             </a>
         </div>
     </section>
