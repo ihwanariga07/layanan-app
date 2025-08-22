@@ -66,6 +66,7 @@
                             <li><a class="lan-5" href="{{ url('dashboard/layanan') }}">Layanan</a></li> -->
                             <li><a href="{{ route('home') }}">Beranda</a></li>
                             <li><a href="{{ route('users.index') }}">User</a></li>
+                            <li><a href="{{ route('layanan.index') }}">Layanan</a></li>
                             <!-- Tambahkan menu dashboard lainnya di sini -->
                         </ul>
                     </li>
